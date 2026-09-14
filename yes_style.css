@@ -1,24 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    direction: rtl;
+}
+
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    min-height: 100svh;
     margin: 0;
+    padding-block: 1.25rem;
+    padding-inline: 1rem;
+    align-items: center;
+    justify-content: center;
     background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    direction: rtl;
 }
 
 .container {
+    inline-size: min(100%, 56rem);
     text-align: center;
 }
 
 .header_text {
-    font-size: 3em;
+    margin-block: 0 1.25rem;
     color: #d32f2f;
+    font-size: clamp(2.25rem, 8vw, 3rem);
+    line-height: 1.25;
+    text-align: center;
 }
 
 .gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+    display: block;
+    inline-size: 100%;
+    max-inline-size: 500px;
+    block-size: auto;
+    margin-inline: auto;
 }
