@@ -2,7 +2,7 @@
 const TEXT = {
     home: {
         pageTitle: "דייט?",
-        heading: "אפשר לקחת אותך לדייט?",
+        heading: "תצאי איתי לדייט?",
         yesButton: "כן",
         noButton: "לא",
         imageAlt: "איור חמוד של דמות שמחזיקה לב",
